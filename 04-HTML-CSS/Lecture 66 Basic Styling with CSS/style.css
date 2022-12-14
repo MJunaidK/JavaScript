@@ -1,0 +1,18 @@
+body {
+  background-color: yellow;
+  font-family: Arial;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+.first {
+  color: red;
+}
+
+#your-name {
+  background-color: mediumaquamarine;
+  border: 5px solid #444;
+}
