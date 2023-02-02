@@ -1,3 +1,4 @@
+'use strict';
 let arr = ['a', 'b', 'c', 'd', 'e'];
 
 // SLICE - Extract part of any array, does not mutate
