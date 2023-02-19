@@ -32,8 +32,6 @@ document.addEventListener('keydown', function (e) {
 
 // Lecture 191 starts
 
-// Lecture 191 ends
-
 //rgb(255,255,255)
 
 const randomInt = (min, max) =>
@@ -60,3 +58,4 @@ document.querySelector('.nav').addEventListener('click', function (e) {
   this.style.backgroundColor = randomColor();
   console.log('NAV', e.target, e.currentTarget);
 });
+// Lecture 191 ends
