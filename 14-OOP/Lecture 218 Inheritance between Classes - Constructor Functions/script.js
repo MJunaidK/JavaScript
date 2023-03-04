@@ -13,6 +13,7 @@ Person.prototype.calcAge = function () {
 //  constructor function for the Student
 const Student = function (firstName, birthYear, course) {
   //  manually set the this keyword using call
+  // It can be used to invoke (call) a method with an owner object as an argument (parameter). With call(), an object can use a method belonging to another object.
   // Call Person, set this inside that to the this Obj in Student which will be an empty object here and pass values for arguments.
   Person.call(this, firstName, birthYear);
   //this.firstName = firstName;
